@@ -52,7 +52,6 @@ class SnacBot(WizSprinter):
 		await client.activate_hooks()
 		await client.mouse_handler.activate_mouseless()
 
-		await self.chomp(70)
 		while self.run:
 			# shop away
 			await self.shop(70)
